@@ -1,0 +1,194 @@
+Inclusão Digital e Introdução à Tecnologia para Jovens e Adultos
+
+Dupla:
+
+Lucas e Luan
+
+1. INTRODUÇÃO
+
+1.1 Propósito do Documento:
+
+Este documento tem como objetivo descrever de forma estruturada os requisitos do sistema "Inclusão Digital e Introdução à Tecnologia para Jovens e Adultos", desenvolvido pela equipe Lucas e Luan. O documento segue as práticas de Engenharia de Software para Levantamento de Requisitos.
+
+1.2 Escopo do Sistema:
+
+O sistema será uma plataforma de apoio ao projeto de extensão Inclusão Digital e Introdução à Tecnologia para Jovens e Adultos. O sistema permitirá o gerenciamento de participantes, oficinas, materiais de estudo, frequência e certificados. O objetivo é facilitar a organização das atividades e ampliar o acesso da comunidade à tecnologia.
+
+1.3 Stakeholders (Partes Interessadas)
+
+Participantes: Jovens e adultos da comunidade que participarão das oficinas.
+
+Organizadores: Alunos responsáveis pela execução e gerenciamento do projeto.
+
+Professores: Orientadores responsáveis pelo acompanhamento do projeto.
+
+IFCE: Instituição responsável pela supervisão e apoio ao projeto.
+
+1.4 Definições e Abreviações
+
+RF – Requisito Funcional
+
+RNF – Requisito Não Funcional
+
+HU – História de Usuário
+
+CDU – Caso de Uso
+
+2. REQUISITOS FUNCIONAIS (RF)
+
+RF01: O sistema deve permitir o cadastro de participantes nas oficinas.
+Prioridade: Must Have
+
+RF02: O participante deve poder consultar datas e horários das oficinas.
+Prioridade: Must Have
+
+RF03: O sistema deve permitir o registro de presença dos participantes.
+Prioridade: Must Have
+
+RF04: O sistema deve disponibilizar materiais de apoio para estudo.
+Prioridade: Should Have
+
+RF05: O sistema deve emitir certificados para participantes que concluírem as oficinas.
+Prioridade: Should Have
+
+RF06: O organizador deve poder editar informações das oficinas cadastradas.
+Prioridade: Could Have
+
+RF07: O sistema deve permitir o envio de avisos aos participantes.
+Prioridade: Could Have
+
+RF08: O sistema poderá oferecer cursos avançados em versões futuras.
+Prioridade: Won’t Have
+
+3. REQUISITOS NÃO FUNCIONAIS (RNF)
+
+RNF01 (Desempenho): As páginas devem carregar em até 3 segundos em condições normais de uso.
+Prioridade: Must Have
+
+RNF02 (Segurança): As senhas devem ser armazenadas utilizando criptografia e a comunicação deve utilizar HTTPS.
+Prioridade: Must Have
+
+RNF03 (Usabilidade): O sistema deve funcionar corretamente em computadores e celulares com largura mínima de 320 pixels.
+Prioridade: Should Have
+
+RNF04 (Disponibilidade): O sistema deve permanecer disponível pelo menos 95% do tempo durante o período do projeto.
+Prioridade: Should Have
+
+RNF05 (Manutenibilidade): O código deve seguir padrões de programação e conter comentários nas funções principais.
+Prioridade: Could Have
+
+4. HISTÓRIAS DE USUÁRIO (HU)
+
+HU01 – Cadastro de Participantes
+
+Narrativa:
+Como participante, quero me cadastrar nas oficinas, para que eu possa participar das atividades de inclusão digital.
+
+Critérios de Aceitação:
+
+* O participante deve informar nome completo.
+* O participante deve informar um contato válido.
+* O sistema deve confirmar o cadastro realizado.
+
+Prioridade: Must Have
+
+Story Points: 5
+
+Sprint: 1
+
+Status: To Do
+
+HU02 – Consulta de Oficinas
+
+Narrativa:
+Como participante, quero visualizar as oficinas disponíveis, para que eu possa escolher quais atividades participar.
+
+Critérios de Aceitação:
+
+* O sistema deve exibir todas as oficinas cadastradas.
+* O sistema deve mostrar data, horário e local.
+* O sistema deve permitir a consulta sem necessidade de cadastro.
+
+Prioridade: Must Have
+
+Story Points: 3
+
+Sprint: 1
+
+Status: To Do
+
+HU03 – Registro de Presença
+
+Narrativa:
+Como organizador, quero registrar a presença dos participantes, para que eu possa acompanhar a participação nas oficinas.
+
+Critérios de Aceitação:
+
+* O sistema deve permitir marcar presença ou ausência.
+* O registro deve ficar salvo para consultas futuras.
+* Apenas organizadores podem alterar presenças.
+
+Prioridade: Must Have
+
+Story Points: 5
+
+Sprint: 2
+
+Status: To Do
+
+HU04 – Emissão de Certificados
+
+Narrativa:
+Como participante, quero receber um certificado após concluir as oficinas, para que eu possa comprovar minha participação.
+
+Critérios de Aceitação:
+
+* O certificado deve conter nome do participante.
+* O certificado deve informar a carga horária.
+* Apenas participantes com presença registrada podem receber certificado.
+
+Prioridade: Should Have
+
+Story Points: 8
+
+Sprint: 2
+
+Status: To Do
+
+5. CASO DE USO (OPCIONAL)
+
+CDU01 – Cadastro de Participante
+
+Ator Principal: Participante
+
+Pré-condição: Oficina disponível.
+
+Pós-condição: Participante cadastrado.
+
+Fluxo Principal:
+
+1. Acessar o sistema.
+2. Preencher formulário de inscrição.
+3. Confirmar cadastro.
+
+Fluxo Alternativo:
+Dados incompletos.
+
+Fluxo de Exceção:
+Falha de conexão.
+
+6. REGRAS DE NEGÓCIO
+
+RN01: Cada participante poderá se inscrever apenas uma vez em cada oficina.
+
+RN02: Apenas participantes com frequência mínima de 75% receberão certificado.
+
+RN03: Apenas organizadores poderão editar informações das oficinas.
+
+8. REFERÊNCIAS
+
+SOMMERVILLE, I. Engenharia de Software. 9. ed. Pearson, 2011.
+
+PRESSMAN, R. Engenharia de Software: Uma Abordagem Profissional. 8. ed. AMGH, 2016.
+
+COHN, M. User Stories Applied: For Agile Software Development. Addison-Wesley, 2004.
